@@ -134,3 +134,18 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')#coloca issp
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#configuração do e-mail
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' #quando não tem servidor de e-mail
+#testando aplicação
+
+#produção da aplicação que já tem o servidor host de email
+#EMAIL DE AUTENTICAÇÂO
+"""
+#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.live.com' #
+EMAIL_HOST_USER = 'gabryel329@outlook.com' #'no-reply@seudominio.com.br #é o email que conecta com o servidor de e-amil'
+EMAIL_PORT = 587 #porta de conexão, caso seja porta segura 587, o host informa
+EMAIL_USER_TSL = True # se vai ter criptografia
+EMAIL_HOST_PASSWORD = 'Adriana019609'
+"""
