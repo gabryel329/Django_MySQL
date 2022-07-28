@@ -147,5 +147,5 @@ EMAIL_HOST = 'smtp.live.com' #
 EMAIL_HOST_USER = 'gabryel329@outlook.com' #'no-reply@seudominio.com.br #é o email que conecta com o servidor de e-amil'
 EMAIL_PORT = 587 #porta de conexão, caso seja porta segura 587, o host informa
 EMAIL_USER_TSL = True # se vai ter criptografia
-EMAIL_HOST_PASSWORD = 'Adriana019609'
+EMAIL_HOST_PASSWORD = '********'
 """
